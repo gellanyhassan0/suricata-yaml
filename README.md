@@ -10,3 +10,4 @@ my customize surricata yaml config file
 
 <code>cd C:\Program Files\Suricata</code><br>
 <code>suricata -c suricata.yaml -l ./log -knone -i ip</code><br>
+<code>cd C:\Program Files\Suricata\log\http.txt</code><br>
