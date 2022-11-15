@@ -8,7 +8,7 @@ my customize surricata yaml config file
 #for windows<br>
 #https://forum.suricata.io/t/how-to-configure-suricata-ids-in-ips-mode-in-windows-server-2019/1648/22
 
-<code>cd C:\Program Files\Suricata</code><br>
+<code>cd "C:\Program Files\Suricata"</code><br>
 <code>suricata -c suricata.yaml -l ./log -knone -i ip</code><br>
 <code>Get-Content http.log -Tail 2 -wait</code><br>
 
