@@ -11,3 +11,5 @@ my customize surricata yaml config file
 <code>cd C:\Program Files\Suricata</code><br>
 <code>suricata -c suricata.yaml -l ./log -knone -i ip</code><br>
 <code>Get-Content http.log -Tail 2 -wait</code><br>
+
+<code>wmic nicconfig get ipaddress,settingid | findstr IP</code><br>
